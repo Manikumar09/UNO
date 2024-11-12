@@ -1,6 +1,13 @@
 import random
-import tkinter as tk
-from tkinter import messagebox
+#tkinter was not supported in streamlit
+#import tkinter as tk
+#from tkinter import messagebox
+#adding streamlit
+import streamlit as st
+
+# Streamlit Button
+if st.button('Click Me'):
+    st.write('Button Clicked!')
 
 # Constants
 COLORS = ["Red", "Yellow", "Green", "Blue"]
